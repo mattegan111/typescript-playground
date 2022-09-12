@@ -11,6 +11,8 @@ function numToUpper() {
   let upperStr = numVal.toUpperCase()
 }
 
+// # Will this ... work ...?
+
 
 // Here is some very sneaky bad code
 
@@ -26,3 +28,10 @@ function increment(num) {
 // No red squiggly in our IDE
 // No errors in console when the page loads
 // No errors when the button is clicked
+
+
+// ################################################ //
+ // Introducing typescript which adds many type safety features on top of javascript
+ // Typescript is a superset of Javascript which means all valid javascript is valid typescript
+ // But typescript just does more
+

@@ -1,0 +1,5 @@
+See if you have typescript:
+  tsc -v
+
+Install typescript globally:
+  npm install -g typescript
