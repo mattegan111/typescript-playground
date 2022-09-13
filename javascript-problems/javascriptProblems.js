@@ -40,10 +40,3 @@ let personObj = {
 function handleSayHi(person) {
   person.greet()
 }
-
-
-// ################################################ //
- // Introducing typescript which adds many type safety features on top of javascript
- // Typescript is a superset of Javascript which means all valid javascript code is valid typescript code
- // But typescript just does much much more
-
