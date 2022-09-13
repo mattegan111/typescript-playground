@@ -7,7 +7,7 @@
 
 let numVal = 0
 
-function numToUpper() {
+function handleNumToUpper() {
   let upperStr = numVal.toUpperCase()
 }
 
@@ -18,7 +18,7 @@ function numToUpper() {
 
 let boolVal = false
 
-function increment(num) {
+function handleIncrement(num) {
   num++
   console.log(num)
 }
@@ -30,8 +30,20 @@ function increment(num) {
 // No errors when the button is clicked
 
 
+// Finally here is a common mistake
+
+let personObj = {
+  fullName: 'Matthew Egan',
+  // greet: () => { console.log('Hi I am ' + personObj.name) }
+}
+
+function handleSayHi(person) {
+  person.greet()
+}
+
+
 // ################################################ //
  // Introducing typescript which adds many type safety features on top of javascript
- // Typescript is a superset of Javascript which means all valid javascript is valid typescript
- // But typescript just does more
+ // Typescript is a superset of Javascript which means all valid javascript code is valid typescript code
+ // But typescript just does much much more
 

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mattegan111/typescript-playground/issues"
   },
-  "homepage": "https://github.com/mattegan111/typescript-playground#readme"
+  "homepage": "https://github.com/mattegan111/typescript-playground#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
